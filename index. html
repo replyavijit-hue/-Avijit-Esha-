@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Avijit ❤️ Esha</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 30px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.heart {
+    font-size: 50px;
+    animation: beat 1s infinite;
+}
+
+@keyframes beat {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.2);}
+    100% {transform: scale(1);}
+}
+
+.card {
+    background: rgba(255,255,255,0.2);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Avijit ❤️ Esha</h1>
+    <div class="heart">❤️</div>
+    <p>Forever Together</p>
+</header>
+
+<div class="card">
+    <h2>💌 Relationship Date</h2>
+    <p>November 11</p>
+</div>
+
+<div class="card">
+    <h2>📖 First Meet</h2>
+    <p>Our first introduction was on Facebook 💙</p>
+</div>
+
+<div class="card">
+    <h2>💖 Message</h2>
+    <p>Our love story is simple but beautiful.  
+    We started as strangers and became everything for each other.</p>
+</div>
+
+<footer>
+    <p>Made with ❤️ by Avijit</p>
+</footer>
+
+</body>
+</html>
